@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Alkatra";
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+html,
+body {
+  color: #212121;
+}
+
+.imgContainer:hover .secondImg {
+  z-index: 2;
+}
